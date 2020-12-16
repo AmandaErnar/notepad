@@ -1,3 +1,5 @@
+# How to Write a Hugo Post
+
 1) Title: short yet specific
 
 2) Date: do not change unless recovering old work
