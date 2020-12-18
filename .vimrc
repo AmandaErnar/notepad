@@ -12,4 +12,24 @@ set incsearch  "    begin the search as characters are being entered in the prom
 
 filetype indent on  "   .filetype specific indenting config
 
+if empty(glob('~/.vim/autoload/plug.vim'))
+
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+
+endif
+" List plugins
+call plug#begin()
+
+Plug 'preservim/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'sheerun/vim-polyglot'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'dense-analysis/ale'
+
+call plug#end()
+
 
