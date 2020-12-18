@@ -11,8 +11,6 @@ set hlsearch   "    highlight search matches in file
 set incsearch  "    begin the search as characters are being entered in the prompt
 filetype indent on  "   .filetype specific indenting configcolorscheme pablo
   
-set guifont=Menlo-Regular:h12
-  
 set softtabstop=5
 
 
