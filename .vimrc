@@ -14,6 +14,5 @@ filetype indent on  "   .filetype specific indenting configcolorscheme pablo
 set guifont=Menlo-Regular:h12
   
 set softtabstop=5
-set number     "    numbers each line
-set lines=50
-set columns=100
+
+
