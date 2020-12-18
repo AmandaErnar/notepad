@@ -9,8 +9,7 @@ set wildmenu   "    shows autocomplete suggestions when tab button pressed
 set showmatch  "    allows you to find corresponging parentheses
 set hlsearch   "    highlight search matches in file
 set incsearch  "    begin the search as characters are being entered in the prompt
+
 filetype indent on  "   .filetype specific indenting config
-  
-set softtabstop=5
 
 

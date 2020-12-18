@@ -15,3 +15,5 @@ Quit | :qa
 
 .vimrc is the settings file for Vim
 edit .vimrc to make changes to the Vim interface
+add Plug, Mac Vim, and config "remote--tab"
+
