@@ -1,5 +1,7 @@
 # Vim Cheatsheet
 
+by Amanda Ernar
+
 ## Basic Commands
 
 Make changes to file, insert mode | i
