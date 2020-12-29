@@ -1,26 +1,17 @@
 # Vim Cheatsheet
 
-## Basic Commands
-
-Make changes to file, insert mode | i
-
-Exit insert mode | "esc" key
-
-Help | :help
-
-Open File | :e
-
-Save File | :w
-
-Save and close Vim | :wq
-
-Quit and discard changes | :q!
-
-Quit | :qa
-
-Exit the autocomplete | l
-
-Hide the Vim text editor | cmd + h
+| Vim Basics | Syntax |
+| ----------- | ----------- |
+| Make changes to file, insert mode | i 
+| Exit insert mode | "esc" key |
+| Help | :help |
+| Open File | :e |
+| Save File | :w |
+| Save and close Vim | :wq |
+| Quit and discard changes | :q! |
+| Quit | :qa |
+| Exit the autocomplete | l |
+| Hide the Vim text editor | cmd + h |
 
 ## Undo + redo
 
