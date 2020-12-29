@@ -1,6 +1,6 @@
 # Vim Cheatsheet
 
-| Vim Basics | Syntax |
+| What | Do |
 | ----------- | ----------- |
 | Make changes to file, insert mode | i 
 | Exit insert mode | "esc" key |
@@ -12,28 +12,15 @@
 | Quit | :qa |
 | Exit the autocomplete | l |
 | Hide the Vim text editor | cmd + h |
-
-## Undo + redo
-
-Undo | u
-
-Undo change made to line | U
-
-Redo | ctrl + r
-
-## Insert Mode
-
-Append one character after current cursor position | a
-
-Append one character before current cursor position | i
-
-Append all the way to the end of line | A
-
-Append all the way to the beginning of line | I
-
-Append in next line | o
-
-Append in previous (new) line | O
+| Undo | u |
+| Undo change made to line | U |
+| Redo | ctrl + r |
+| Append one character after current cursor position | a |
+| Append one character before current cursor position | i |
+| Append all the way to the end of line | A |
+| Append all the way to the beginning of line | I |
+| Append in next line | o |
+| append in previous (new) line | O |
 
 ## Basic Vim Navigation
 
