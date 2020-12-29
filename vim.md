@@ -51,19 +51,15 @@
 
 ## Shifting
 
-Highlight or Select | V
-
-Select multiple lines | V + **j**
-
-Delete selection | dd
-
-Indent selection | >
-
-Go to start of line | <
-
-Multiple phrases | (normal) numerical value (insert) bananas! (normal)
-
-Go down a certain amount of times, example=10 | 10j
+| Description | How-to |
+| ----------- | ----------- |
+| Highlight or Select | V |
+| Select multiple lines | V + **j** |
+| Delete selection | dd |
+| Indent selection | > |
+| Go to start of line | > |
+| Multiple phrases | (normal) numerical value (insert) bananas! (normal) |
+| Go down a certain amount of times, example=10 | 10j | 
 
 ## Searching 
 
