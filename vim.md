@@ -1,12 +1,5 @@
 # Vim Cheatsheet
 
-## Good Plug-ins for Vim Text Editor
-
-- Nerd Tree, a plugin that shows the tree of your current workfile + its useful git plugin that shows the git status of the files in your tree.
-- Polyglot, which is used to show different highlighting based off of your filetype
-- CoC, a code autocompleter (very useful)
-- Ale, the ESLint for Vim
-
 ## Basic Commands
 
 Make changes to file, insert mode | i
@@ -37,17 +30,6 @@ Undo change made to line | U
 
 Redo | ctrl + r
 
-## More Information
-
-.vimrc is the settings file for Vim
-
-edit .vimrc to make changes to the Vim interface
-
-add Plug, Mac Vim, and config "remote--tab"
-
-Find Plug [here](https://github.com/junegunn/vim-plug).
-
-
 ## Insert Mode
 
 Append one character after current cursor position | a
@@ -68,11 +50,17 @@ Go to end of line | cmd + right arrow
 
 Go to beginning of line | H, cmd + left arrow
 
-Go to beginning of document | cmd + up arrow
+Go to beginning of document | g, cmd + up arrow
 
-Go to bottom of document | L, cmd + down arrow
+Go to bottom of document | cmd + down arrow, G, :$
 
 Go to certain line number | :line_number
+
+Go to end of current word | e
+
+Go to previous word | b
+
+Go to the next word | w
 
 Navigate upwards | k
 
@@ -108,15 +96,35 @@ Go down a certain amount of times, example=10 | 10j
 
 ## Searching 
 
-Basic search input | /keyword
+Basic search input | /keyword, ?keyword
 
 Check ~/.vimrc for search configuration
 
 ## Screen Navigation
 
-Jump forwards 1 screen | ctrl + f
+Jump forwards 1 page | ctrl + f
 
-Jump back 1 screen | ctrl + b
+Jump back 1 page | ctrl + b
+
+## More Information
+
+### .vimrc
+
+The settings file for Vim that makes changes to the overall Vim interface. See Amanda's .vimrc file at the root of this repo!
+
+### What is Plug?
+
+Plug is a package manager for the vim text editor, kind of like npm or brew. Plug cool features into your vim by plugging them into your .vimrc file.
+
+Find Plug [here](https://github.com/junegunn/vim-plug).
+
+### Good Plug-ins for Vim Text Editor
+
+- Nerd Tree, a plugin that shows the tree of your current workfile + its useful git plugin that shows the git status of the files in your tree.
+- Polyglot, which is used to show different highlighting based off of your filetype
+- CoC, a code autocompleter (very useful)
+- Ale, the ESLint for Vim
+
 
 ___
 
