@@ -63,15 +63,16 @@
 
 ## Searching 
 
-Basic search input | /keyword, ?keyword
-
-Check ~/.vimrc for search configuration
+| Description | How-to |
+| ----------- | ----------- |
+| Input search | /keyword, ?keyword |
 
 ## Screen Navigation
 
-Jump forwards 1 page | ctrl + f
-
-Jump back 1 page | ctrl + b
+| Description | How-to |
+| ----------- | ----------- |
+| Jump forwards 1 page | ctrl + f |
+| Jump back 1 page | ctrl + b |
 
 ## More Information
 
