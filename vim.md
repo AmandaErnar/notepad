@@ -96,4 +96,4 @@ Find Plug [here](https://github.com/junegunn/vim-plug).
 
 ___
 
-Remember, practice makes perfect! :cowboy_hat_face:
+Remember, practice makes perfect!
