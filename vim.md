@@ -1,22 +1,23 @@
-# Vim Cheatsheet
+# Vim Reference
 
 ## Basics
 
-| Description | How-to |
+| Description | Tutorial |
 | ----------- | ----------- |
 | Make changes to file, insert mode | i 
 | Exit insert mode | "esc" key |
-| Help | :help keyword|
+| Help | :help keyword |
 | Open File | :e |
 | Save File | :w |
 | Save and close Vim | :wq |
 | Quit and discard changes | :q! |
 | Quit | :qa |
-| Hide the Vim text editor | cmd + h |
+| Hide editor | cmd + h |
+| Access shell | :!shell_cmd |
 
 ## Undo, Redo
 
-| Description | How-to |
+| Description | Tutorial |
 | ----------- | ----------- |
 | Undo | u |
 | Undo change made to line | U |
@@ -25,55 +26,58 @@
 | Append one character before current cursor position | i |
 | Append all the way to the end of line | A |
 | Append all the way to the beginning of line | I |
-| Append in next line | o |
-| append in previous (new) line | O |
+| Append in a new line coming after the current line | o |
+| Append in a new line coming before the current line | O |
+| Delete 1 entire line | dd | 
 
 ## Navigation
 
-| Description | How-to |
+| Description | Tutorial |
 | ----------- | ----------- |
-| Go to end of line | cmd + right arrow |
-| Go to beginning of line | H, cmd + left arrow |
-| Go to beginning of documentrrow |
-| Go to bottom of document | , G, :$ |
-| Go to certain line number |
-| Go to end of current word | e |
-| Go to previous word | b |
-| Go to the next word | w |
 | Navigate upwards | k |
 | Navigate downwards | j |
 | Navigate to the right | l |
-| Navigate to the left | h | 
-| Go down a certain amount of times, example=10 | 10j |
-| Go to the first non-null character of the line | ^ |
-| Go to the end of the current line | $ |
+| Navigate to the left | h |
+| Go to end of line | $ |
+| Go to beginning of line | 0 |
+| Go to beginning of document | g |
+| Go to the last line of the document | G, :$ |
+| Go to line N | :N |
+| Go to end of current word | e |
+| Go to previous word | b |
+| Go to the next word | w |
+| Go to the first non-null character of the current line | ^ |
 | Go to the last non-null character of the current line | g_ |
+| Go down N number of lines | Nj |
 
-## Shifting
+## Visual Mode
 
-| Description | How-to |
+| Description | Tutorial |
 | ----------- | ----------- |
 | Enter Visual Mode | v |
-| Highlight or Select | V |
-| Select multiple lines | V + **j** |
-| Delete selection | dd |
+| Highlight the entire current line | V |
+| Delete selection | d |
 | Indent selection | > |
-| Go to start of line | > |
-| Multiple phrases | (normal) numerical value (insert) bananas! (normal) |
-| Go down a certain amount of times, example=10 | 10j | 
+| N numbers of a certain phrase | (normal) N (insert) a certain phrase (normal) |
 
 ## Searching 
 
-| Description | How-to |
+| Description | Tutorial |
 | ----------- | ----------- |
-| Input search | /keyword, ?keyword |
+| Input search | /keyword |
+| Search backwards | ?keyword |
+| Find each "hello" and replace with "hi" in every line | :%s/hello/hi/g |
+| Find each "hello" and replace with "hi" in current line | :s/hello/hi/g |
+| Find each "hello and replace with "hi" in every line, but ask for confimation | :%s/hello/hi/gc |
 
 ## Screen Navigation
 
-| Description | How-to |
+| Description | Tutorial |
 | ----------- | ----------- |
-| Jump forwards 1 page | ctrl + f |
-| Jump back 1 page | ctrl + b |
+| Bump cursor up one half screen | ctrl + u |
+| Bump cursor down one half screen | ctrl + d |
+| Bump cursor up one full screen | ctrl + f |
+| Bump cursor down one full screen | ctrl + b |
 
 ## More Information
 
@@ -89,11 +93,10 @@ Find Plug [here](https://github.com/junegunn/vim-plug).
 
 ### Good Plug-ins for Vim Text Editor
 
-- Nerd Tree, a plugin that shows the tree of your current workfile + its useful git plugin that shows the git status of the files in your tree.
+- Nerd Tree, a plugin that shows the tree of your current workfile and its useful git plugin that shows the git status of the files in your tree.
 - Polyglot, which is used to show different highlighting based off of your filetype
 - CoC, a code autocompleter (very useful)
 - Ale, the ESLint for Vim
-
 
 ___
 
