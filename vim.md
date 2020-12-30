@@ -6,7 +6,7 @@
 | ----------- | ----------- |
 | Make changes to file, insert mode | i 
 | Exit insert mode | "esc" key |
-| Help | :help |
+| Help | :help keyword|
 | Open File | :e |
 | Save File | :w |
 | Save and close Vim | :wq |
@@ -34,9 +34,9 @@
 | ----------- | ----------- |
 | Go to end of line | cmd + right arrow |
 | Go to beginning of line | H, cmd + left arrow |
-| Go to beginning of document | g, cmd + up arrow |
-| Go to bottom of document | cmd + down arrow, G, :$ |
-| Go to certain line number | :line_number |
+| Go to beginning of documentrrow |
+| Go to bottom of document | , G, :$ |
+| Go to certain line number |
 | Go to end of current word | e |
 | Go to previous word | b |
 | Go to the next word | w |
@@ -53,6 +53,7 @@
 
 | Description | How-to |
 | ----------- | ----------- |
+| Enter Visual Mode | v |
 | Highlight or Select | V |
 | Select multiple lines | V + **j** |
 | Delete selection | dd |
