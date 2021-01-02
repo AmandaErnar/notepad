@@ -1,8 +1,12 @@
 ## To complete
 
-Review Vim cheatsheet, make sure that everything is accurate
+Revise Vim cheatsheet
 
-Add to zshrc
+Configure zshrc and fix issues with it
 
-Practice Vim (Gatsby)
+Practice Vim http://www.vimgenius.com/lessons/vim-intro
+
+Gatsby Website
+
+App
 
