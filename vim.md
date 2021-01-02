@@ -14,6 +14,7 @@
 | Quit | :qa |
 | Hide editor | cmd + h |
 | Access shell | :!shell_cmd |
+| Read filename and insert after current line | :r |
 
 ## Undo, Redo
 
@@ -89,6 +90,10 @@
 | Repeat last :s command | & |
 | Matches if line ends with uwu | /uwu$ |
 | Matches if line contains uwo or owo | /\(uwu|owo\) |
+| Matches if the line contians UWU by itself | /^UWU$ |
+| Matches if the line starts with any letter | /^[a-zA-Z] |
+| Matches if there are numbers in the line | /[0-9]* |
+| Matches if the first character is not a # in the line | /^[^#] |
 
 ## Expressions
 
@@ -100,6 +105,15 @@
 | Grouping | \(...\) |
 | Contents of Nth group | \n |
 
+## Ranges
+
+| Description | Tutorial |
+| ----------- | ----------- |
+| Range line n-m | :n,m |
+| Range current line | :. |
+| Range marker c | :'c |
+| Range all lines in file | :% |
+| Range all lines that contain pattern | :g/pattern/ |
 
 ## Screen Navigation
 
