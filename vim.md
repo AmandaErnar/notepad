@@ -28,7 +28,6 @@
 | Append all the way to the beginning of line | I |
 | Append in a new line coming after the current line | o |
 | Append in a new line coming before the current line | O |
-| Delete 1 entire line | dd | 
 
 ## Navigation
 
@@ -38,17 +37,16 @@
 | Navigate downwards | j |
 | Navigate to the right | l |
 | Navigate to the left | h |
-| Go to end of line | $ |
-| Go to beginning of line | 0 |
-| Go to beginning of document | g |
+| Go to end of current line | $ |
+| Go to the first line of the document | gg |
 | Go to the last line of the document | G, :$ |
-| Go to line N | :N |
+| Go down N number of lines | Nj |
+| Go to line N | :N, NG |
 | Go to end of current word | e |
-| Go to previous word | b |
-| Go to the next word | w |
+| Go to beginning of previous word | b |
+| Go to beginning of next word | w |
 | Go to the first non-null character of the current line | ^ |
 | Go to the last non-null character of the current line | g_ |
-| Go down N number of lines | Nj |
 
 ## Visual Mode
 
@@ -60,15 +58,48 @@
 | Indent selection | > |
 | N numbers of a certain phrase | (normal) N (insert) a certain phrase (normal) |
 
+## Replacing and Deleting
+
+| Description | Tutorial |
+| ----------- | ----------- |
+| Replace single character on cursor | r |
+| Delete single character on cursor | x |
+| Delete N words beginning with the character under cursor | d<n>w |
+| Delete N characters beginning with the character under cursor | <n>x |
+| Delete the remainder of the line | D |
+| Delete entire current line | dd |
+| Delete characters after cursor in current word | dw |
+| Delete the next N lines | Ndd |
+| Copy (yank, cut) current line | Y |
+| Copy (yank, cut) next N lines, including current line | Nyy |
+| Past | p |
+
 ## Searching 
 
 | Description | Tutorial |
 | ----------- | ----------- |
 | Input search | /keyword |
 | Search backwards | ?keyword |
+| Go to corresponding parentheses in search | % |
+| Move to next occurence of searched string | n |
+| Move to next occurrence of searched string in opposite direction | N |
 | Find each "hello" and replace with "hi" in every line | :%s/hello/hi/g |
 | Find each "hello" and replace with "hi" in current line | :s/hello/hi/g |
 | Find each "hello and replace with "hi" in every line, but ask for confimation | :%s/hello/hi/gc |
+| Repeat last :s command | & |
+| Matches if line ends with uwu | /uwu$ |
+| Matches if line contains uwo or owo | /\(uwu|owo\) |
+
+## Expressions
+
+| Description | Tutorial |
+| ----------- | ----------- |
+| Any single character except newline | . |
+| Any single character specified in the set | [..] |
+| Zero or more occurence of any character | * |
+| Grouping | \(...\) |
+| Contents of Nth group | \n |
+
 
 ## Screen Navigation
 
