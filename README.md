@@ -1,12 +1,12 @@
 ## To complete
 
-[X] Revise Vim cheatsheet
+- [X] Revise Vim cheatsheet
 
-[ ] Add more to vimrc
+- [ ] Add more to vimrc
 
-[ ] Configure zshrc and fix issues with it
+- [ ] Configure zshrc and fix issues with it
 
-[ ] Practice Vim
+- [ ] Practice Vim
 
 - http://www.vimgenius.com/lessons/vim-intro
 
