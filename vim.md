@@ -124,6 +124,20 @@
 | Bump cursor up one full screen | ctrl + f |
 | Bump cursor down one full screen | ctrl + b |
 
+## Window
+
+| Description | Tutorial |
+| ----------- | ----------- |
+| Description | Commands |
+| Access Window Command mode | ctrl + w |
+| Rotate up/left | ctrl + w + R |
+| Rotate down/right | ctrl + w + r  |
+| Move current window all the way to the right | ctrl + w + L |
+| Move current window all the way to the left | ctrl + w + H |
+| Move current window all the way to the bottom | ctrl + w + J |
+| Move current window all the way to the top | ctrl + w + K |
+
+
 ## More Information
 
 ### .vimrc

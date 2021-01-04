@@ -7,6 +7,7 @@
 - [ ] Configure zshrc and fix issues with it
 
 - [ ] Practice Vim
+
 http://www.vimgenius.com/lessons/vim-intro
 https://dougblack.io/words/a-good-vimrc.html
 https://stackoverflow.com/questions/4556184/vim-move-window-left-right
