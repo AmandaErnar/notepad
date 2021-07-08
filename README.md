@@ -8,6 +8,8 @@
 
 - [ ] Practice Vim
 
+- [ ] Remove KDP notes file when done w/ kdp.md
+
 http://www.vimgenius.com/lessons/vim-intro
 https://dougblack.io/words/a-good-vimrc.html
 https://stackoverflow.com/questions/4556184/vim-move-window-left-right
