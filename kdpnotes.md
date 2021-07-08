@@ -15,3 +15,31 @@ In order to qualify for distribution among libraries and schools and stuff the b
 **For one Book**
 Gutter (inner margins): 0.375 inches
 Outer margins: 0.375 inches
+
+Stuff in the front (everything before page 1) appears in this order:
+Title page
+Copyright
+Dedicaitoin
+Table of Contents
+
+minimmum page count is 24 pgs
+The graphics and text have to be embedded in the PDF you submit
+
+text has to be at least 7 pt
+Make sure ev erything is consistent when submittibg
+everything has to be original
+
+expanded distribution is when people order the book from libraries and stuff, can take up to 8 weeks to qualify
+
+Everythign must be aligned with one another. Do not lock the files whne submitting
+
+Extend the image 0.125 inches past the page to prevent a hite border from showing up (bleed)
+
+Everything has to fit inside of the margins which are 0.375 inches
+
+No blank pages
+
+All layers must be flattened and have to be 100% transparency
+
+
+
