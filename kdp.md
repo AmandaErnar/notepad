@@ -6,7 +6,7 @@ Story - MacVim, markdown
 
 Manuscript - Keynote
 
-Cover - Amazon Cover Creator
+Cover - Amazon Cover Creator (Keynote?)
 
 Upload - Kindle Direct Publishing
 
@@ -32,4 +32,34 @@ Create .md file under story folder
 
 Make everything as information-dense and organized as possible
 
+***Manusript***
 
+Upload onto KDP
+
+***Cover***
+
+Create with Procreate
+
+Upload onto Amazon's cover creator and add text and stuff
+
+***Upload***
+
+Create new book at [Kindle Direct Publishing](kdp.amazon.com)
+
+Fill in book information
+
+Get an ISBN number
+
+Select:
+
+- Glossy paper
+- Premium colored paper
+- 8.5 x 8.5 inch trim size
+
+Upload manuscript + cover
+
+Make suggested edits in book preview
+
+Add pricing stuff
+
+Submit for review!
